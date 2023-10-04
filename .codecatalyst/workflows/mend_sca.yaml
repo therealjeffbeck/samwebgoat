@@ -18,6 +18,9 @@ Actions:
       # Optional
       Sources:
         - WorkflowSource # This specifies that the action requires this Workflow as a source
+      Variables:
+        - Name: WS_MAVEN_AGGREGATEMODULES
+          Value: true
 
     Outputs:
       # Manual reports configuration
