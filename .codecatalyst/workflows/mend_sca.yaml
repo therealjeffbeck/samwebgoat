@@ -21,7 +21,9 @@ Actions:
       Variables:
         - Name: WS_MAVEN_AGGREGATEMODULES
           Value: true
-
+        - Name: WS_MAVEN_RUNPRESTEP
+          Value: true
+          
     Outputs:
       # Manual reports configuration
       Reports:
